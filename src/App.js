@@ -13,6 +13,7 @@ import MyNavbar from './components/Navbar/MyNavbar';
 import TitleMessage from './components/title-message/title-message';
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
+import Experience from './pages/experience/experience';
 
 const App = () => {
 	return (
@@ -41,6 +42,14 @@ const App = () => {
 						<hr />
 						<Skills />
 					</Slide>
+				</Container>
+			</div>
+			<div>
+				<Container className='container-box rounded'>
+					<Fade bottom duration={500}>
+						<hr />
+						<Experience />
+					</Fade>
 				</Container>
 			</div>
 		</div>
