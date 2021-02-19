@@ -14,6 +14,9 @@ import TitleMessage from './components/title-message/title-message';
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
 import Experience from './pages/experience/experience';
+import ProjectTimeline from './components/project-timeline/project-timeline';
+import Contact from './pages/contact/contact';
+import Footer from './components/footer/footer';
 
 const App = () => {
 	return (
@@ -52,6 +55,24 @@ const App = () => {
 					</Fade>
 				</Container>
 			</div>
+			<div>
+				<Container className='container-box rounded'>
+					<Slide bottom duration={500}>
+						<hr />
+						<ProjectTimeline/>
+					</Slide>
+				</Container>
+			</div>
+			<div>
+				<Container className='container-box rounded'>
+					<Slide bottom duration={500}>
+						<hr />
+						<Contact/>
+					</Slide>
+				</Container>
+			</div>
+			<hr />
+			<Footer/>
 		</div>
 	);
 };

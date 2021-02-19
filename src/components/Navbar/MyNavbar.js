@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Logo from '../../assets/icons/logow.webp';
+// import Logo from '../../assets/icons/logow.webp';
 import './MyNavbar.css';
 
 const MyNavbar = () => {
@@ -16,7 +16,7 @@ const MyNavbar = () => {
 				className='animate-navbar nav-theme justify-content-between'>
 				<div>
 					<Navbar.Brand href='#home'>
-						<img className='logo' src={Logo} alt='' />
+					MyPortfolio
 					</Navbar.Brand>
 				</div>
 				<div>
